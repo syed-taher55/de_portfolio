@@ -1,79 +1,297 @@
 {
   "personalInfo": {
     "name": "Syed Taher",
-    "title": "Data Engineer & Cloud Architect",
-    "summary": "I architect and construct scalable data ecosystems, transforming raw data into strategic assets. My passion lies in building robust, efficient pipelines that empower data-driven decisions.",
-    "headshot": "https://placehold.co/400x400/0f172a/94a3b8?text=AD"
+    "title": "Data Engineer",
+    "location": "Hyderabad, Telangana",
+    "summary": null,
+    "phone": "+91 8500720955",
+    "email": "mohammedsyedtaher1@gmail.com",
+    "headshot": null,
+    "linkedin": "https://linkedin.com/in/syed-taher55",
+    "github": "https://github.com/syed-taher55",
+    "portfolio": "https://syed-taher-portfolio.vercel.app"
   },
   "techStack": [
     {
+      "category": "Languages & Querying",
       "name": "Python",
       "certification": null
     },
     {
-      "name": "AWS",
-      "certification": "AWS Certified Solutions Architect – Associate",
-      "issueDate": "October 2025",
-      "credentialUrl": "https://www.credly.com/your-badge-link",
-      "certificateFile": "/tsrtcqr.png"
+      "category": "Languages & Querying",
+      "name": "SQL",
+      "details": ["PostgreSQL", "MySQL"],
+      "certification": null
     },
     {
+      "category": "Big Data & Streaming",
       "name": "Apache Spark",
-      "certification": "Databricks Certified Associate Developer for Apache Spark",
-      "issueDate": "July 2024",
-      "credentialUrl": null,
-      "certificateFile": "/databricks-spark-cert.pdf"
+      "certification": null
     },
     {
+      "category": "Big Data & Streaming",
+      "name": "PySpark",
+      "certification": null
+    },
+    {
+      "category": "Big Data & Streaming",
+      "name": "Apache Kafka",
+      "certification": null
+    },
+    {
+      "category": "Big Data & Streaming",
+      "name": "Apache Flink",
+      "certification": null
+    },
+    {
+      "category": "Big Data & Streaming",
+      "name": "Delta Lake",
+      "certification": null
+    },
+    {
+      "category": "Architecture",
+      "name": "Medallion Architecture",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Amazon S3",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "AWS Glue",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "AWS Lambda",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Amazon Redshift",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Amazon EC2",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "AWS IAM",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Amazon CloudWatch",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Azure Data Factory",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Azure Databricks",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Azure Storage",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Azure Functions",
+      "certification": null
+    },
+    {
+      "category": "Cloud Platforms",
+      "name": "Azure SQL",
+      "certification": null
+    },
+    {
+      "category": "Data Engineering",
+      "name": "ETL/ELT Pipelines",
+      "certification": null
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Batch Processing",
+      "certification": null
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Stream Processing",
+      "certification": null
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Enterprise Data Warehousing",
+      "certification": null
+    },
+    {
+      "category": "Data Engineering",
+      "name": "Dimensional Modeling",
+      "details": ["Star Schema"],
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
       "name": "Snowflake",
-      "certification": "SnowPro Core Certification",
-      "issueDate": "January 2025",
-      "credentialUrl": "https://www.credly.com/your-other-badge-link",
-      "certificateFile": null
+      "certification": null
     },
     {
-      "name": "dbt",
+      "category": "Tools & Analytics",
+      "name": "Docker",
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
+      "name": "Git",
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
+      "name": "GitHub",
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
+      "name": "Linux",
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
+      "name": "Visual Studio Code",
+      "certification": null
+    },
+    {
+      "category": "Tools & Analytics",
+      "name": "Power BI",
       "certification": null
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Real-time Streaming Data Pipeline",
-      "description": "Engineered a high-throughput pipeline using Kafka and Spark Streaming.",
-      "repo": "streaming-pipeline",
-      "githubUrl": "https://github.com/yourusername/streaming-pipeline"
+      "title": "Enterprise Retail Analytics Platform",
+      "description": "Built an end-to-end Lakehouse using Medallion Architecture (Bronze/Silver/Gold) on Databricks to ingest multi-source retail transactions, applying broadcast joins and partition pruning to boost query speed by 40%.",
+      "technologies": [
+        "AWS",
+        "Databricks",
+        "PySpark",
+        "Delta Lake",
+        "Power BI"
+      ],
+      "repo": null,
+      "githubUrl": null
     },
     {
       "id": 2,
-      "title": "Cloud Data Warehouse Modernization",
-      "description": "Led the migration from an on-premise SQL server to Google BigQuery.",
-      "repo": "data-warehouse-migration",
-      "githubUrl": "https://github.com/yourusername/data-warehouse-migration"
+      "title": "Real-Time Event Streaming Platform",
+      "description": "Engineered an event-driven streaming platform handling high-throughput event streams with Flink windowing, stateful processing, and checkpointing for fault tolerance.",
+      "technologies": [
+        "Apache Kafka",
+        "Apache Flink",
+        "Python"
+      ],
+      "repo": null,
+      "githubUrl": null
     },
     {
       "id": 3,
-      "title": "Scalable ETL Framework for Analytics",
-      "description": "Developed a Python-based ETL framework on AWS Glue.",
-      "repo": "Third_eye",
-      "githubUrl": "https://github.com/SYED-TAHER/Third_eye"
+      "title": "Cloud Data Engineering Platform",
+      "description": "Constructed automated AWS Glue ETL workflows with S3 data lake storage and Redshift warehousing, supporting schema evolution and automated data quality checks.",
+      "technologies": [
+        "AWS Glue",
+        "Amazon S3",
+        "PySpark",
+        "Amazon Redshift"
+      ],
+      "repo": null,
+      "githubUrl": null
     }
   ],
   "experience": [
     {
-      "role": "Senior Data Engineer",
-      "company": "DataCorp Analytics",
-      "period": "2022 - Present"
+      "role": "Data Engineer",
+      "company": "Bluvera Technologies",
+      "period": "Jul 2023 - Present",
+      "location": "Bengaluru, Karnataka, India",
+      "responsibilities": [
+        "Spearhead end-to-end architecture and deployment of enterprise batch/stream ETL pipelines across AWS and Azure, handling 500GB+ daily transaction records.",
+        "Architected scalable batch pipelines using Python, PySpark, AWS Glue, and Amazon Redshift, optimizing query performance by 35% and reducing execution costs by 20%.",
+        "Engineered real-time streaming ingestion using Apache Kafka and Apache Flink to process high-volume events with sub-second latency for real-time dashboards.",
+        "Designed dimensional data models (Star Schema) and automated CI/CD workflows with Docker, Git, and AWS CloudWatch, improving pipeline release cycles by 40%."
+      ]
     },
     {
-      "role": "Data Engineer",
-      "company": "Insight Systems",
-      "period": "2020 - 2022"
+      "role": "Decision Scientist - 2",
+      "company": "Mu Sigma Inc.",
+      "period": "Aug 2022 - May 2023",
+      "location": "Bengaluru, Karnataka, India",
+      "responsibilities": [
+        "Built scalable analytical pipelines in Azure Databricks, Azure Data Factory, and PySpark for a global FMCG client, modeling supply chain metrics across 1M+ SKU lines.",
+        "Developed interactive Power BI dashboards and executive KPI suites, accelerating demand planning decision-making cycles by 25%.",
+        "Executed exploratory data analysis, feature engineering, and statistical modeling to optimize inventory distribution and mitigate stockouts."
+      ]
+    },
+    {
+      "role": "Data Analyst",
+      "company": "FlipRobo Technologies",
+      "period": "Jan 2022 - Jul 2022",
+      "location": "Remote",
+      "responsibilities": [
+        "Transformed, validated, and analyzed structured datasets using Python and SQL, guaranteeing 99%+ data accuracy across core business analytics.",
+        "Automated weekly KPI reporting workflows and dashboard views, saving 10+ hours per week in manual analytical reporting."
+      ]
+    },
+    {
+      "role": "Relationship Officer (NRI Banking)",
+      "company": "ICICI Bank",
+      "period": "Oct 2020 - May 2021",
+      "location": "Hyderabad, Telangana, India",
+      "responsibilities": [
+        "Managed a high-value portfolio of NRI accounts, delivering dedicated relationship management, case resolution, and end-to-end customer support.",
+        "Drove cross-functional revenue growth by cross-selling strategic financial products, including investment instruments and specialized banking services."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Data Engineering Professional Certificate",
+      "issuer": "AWS & DeepLearning.AI",
+      "issueDate": "December 2024"
+    },
+    {
+      "name": "Get Started with Databricks for Data Engineering",
+      "issuer": "Databricks",
+      "issueDate": "January 2025"
+    },
+    {
+      "name": "Python for Data Science, AI & Development",
+      "issuer": "IBM",
+      "issueDate": "August 2024"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Mechanical Engineering",
+      "institution": "Osmania University",
+      "location": "Hyderabad, Telangana",
+      "period": "2016 - 2019"
     }
   ],
   "contact": {
     "email": "mohammedsyedtaher1@gmail.com",
-    "github": "https://github.com/SYED-TAHER",
-    "linkedin": "https://linkedin.com/in/yourprofile"
+    "phone": "+91 8500720955",
+    "github": "https://github.com/syed-taher55",
+    "linkedin": "https://linkedin.com/in/syed-taher55",
+    "portfolio": "https://syed-taher-portfolio.vercel.app",
+    "location": "Hyderabad, Telangana"
   }
 }
